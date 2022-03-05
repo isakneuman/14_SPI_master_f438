@@ -1,0 +1,3 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+exti.c:6:6:init_EXTI_PE4	8	static
+exti.c:18:6:EXTI4_IRQHandler	4	static

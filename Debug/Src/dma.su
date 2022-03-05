@@ -1,0 +1,3 @@
+core_cm4.h:1688:22:__NVIC_EnableIRQ	16	static
+dma.c:8:6:init_dma_stream2_ch4_TX	24	static
+dma.c:45:6:DMA2_Stream2_IRQHandler	4	static

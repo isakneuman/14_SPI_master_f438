@@ -1,0 +1,39 @@
+#ifndef DAC_H_
+#define DAC_H_
+
+	#include "stm32f4xx.h"
+	#include "gpio_f429.h"
+
+	#define PA5			0x05
+	#define	DAC_OUT2	PA5
+
+	#define DAC_CR_TSELx_TIM6		0x00	//000: Timer 6 TRGO event
+	#define DAC_CR_TSELx_TIM8		0x01	//001: Timer 8 TRGO event
+	#define DAC_CR_TSELx_TIM7		0x02	//010: Timer 7 TRGO event
+	#define DAC_CR_TSELx_TIM5		0x03	//011: Timer 5 TRGO event
+	#define DAC_CR_TSELx_TIM2		0x04	//100: Timer 2 TRGO event
+	#define DAC_CR_TSELx_TIM4		0x05	//101: Timer 4 TRGO event
+	#define DAC_CR_TSELx_EXTI9		0x06	//110: External line9
+	#define DAC_CR_TSELx_SWTRIG		0x07	//111: Software trigger
+
+	#define DAC_CR_TSEL1_TIM6		DAC_CR_TSELx_TIM6<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_TIM8		DAC_CR_TSELx_TIM8<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_TIM7		DAC_CR_TSELx_TIM7<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_TIM5		DAC_CR_TSELx_TIM5<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_TIM2		DAC_CR_TSELx_TIM2<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_TIM4		DAC_CR_TSELx_TIM4<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_EXTI9		DAC_CR_TSELx_EXTI9<<DAC_CR_TSEL1_Pos
+	#define DAC_CR_TSEL1_SWTRIG		DAC_CR_TSELx_SWTRIG<<DAC_CR_TSEL1_Pos
+
+	#define DAC_CR_TSEL2_TIM6		DAC_CR_TSELx_TIM6<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_TIM8		DAC_CR_TSELx_TIM8<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_TIM7		DAC_CR_TSELx_TIM7<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_TIM5		DAC_CR_TSELx_TIM5<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_TIM2		DAC_CR_TSELx_TIM2<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_TIM4		DAC_CR_TSELx_TIM4<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_EXTI9		DAC_CR_TSELx_EXTI9<<DAC_CR_TSEL2_Pos
+	#define DAC_CR_TSEL2_SWTRIG		DAC_CR_TSELx_SWTRIG<<DAC_CR_TSEL2_Pos
+
+
+
+#endif /* DAC_H_ */

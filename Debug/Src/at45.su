@@ -1,0 +1,7 @@
+at45.c:3:6:init_at45	8	static
+at45.c:9:6:get_devid	24	static
+at45.c:18:6:get_status_register	24	static
+at45.c:27:9:at45_readpage	40	static
+at45.c:50:9:at45_writepage	32	static
+at45.c:70:9:at45_writebuffer	32	static
+at45.c:92:9:at45_buffer2memory	24	static

@@ -1,0 +1,6 @@
+gpio_f429.c:5:10:init_gpio	16	static
+gpio_f429.c:17:10:gpio_set_AFR	16	static
+gpio_f429.c:36:7:toggle_pin	16	static
+gpio_f429.c:41:7:set_pin	16	static
+gpio_f429.c:47:7:reset_pin	16	static
+gpio_f429.c:53:10:gpio_port_clock	16	static
